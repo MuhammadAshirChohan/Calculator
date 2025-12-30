@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1 align="center">Calculator</h1>
+
+
+<div class="container" align="center">
+
+<div class="display">
+    <input class="input" type="text" readonly/>
+</div>
+
+<div class="row">
+    <button class="button sym">%</button>
+    <button class="button sym">&radic;</button>
+    <button class="button syn">CE</button>
+    <button class="button syn" ID="backspace-btn" onclick="deletelastchar()">X</button>
+</div>
+
+<div class="row">
+    <button class="button nums">7</button>
+    <button class="button nums">8</button>
+    <button class="button nums">9</button>
+    <button class="button sym">-</button>
+</div>
+
+<div class="row">
+    <button class="button nums">4</button>
+    <button class="button nums">5</button>
+    <button class="button nums">6</button>
+    <button class="button sym">/</button>
+</div>
+
+<div class="row">
+    <button class="button nums">1</button>
+    <button class="button nums">2</button>
+    <button class="button nums">3</button>
+    <button class="button sym">*</button>
+</div>
+
+<div class="row">
+    <button class="button sym">.</button>
+    <button class="button nums">0</button>
+    <button class="button sym">=</button>
+    <button class="button sym">+</button>
+</div>
+
+</div>
+<script src="./index.js" defer></script>
+</body>
+</html>

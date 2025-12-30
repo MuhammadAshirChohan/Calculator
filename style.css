@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    justify-content: space-between;    
+}
+body{
+    background-image:linear-gradient(to bottom,rgb(114, 114, 233),rgb(18, 180, 255),rgb(103, 228, 211));
+ display: grid;
+ justify-content:center;
+ align-items: center;
+ padding:150px;
+
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(148, 8, 8)
+}
+
+.container{
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows:auto auto auto auto auto auto ;
+    border-radius:15px;
+   padding:20px;
+   padding top:10px;
+   margin:auto;
+   background-image:linear-gradient(to bottom,rgb(75, 75, 75),rgba(173, 173, 173, 0.9));
+    background-image:linear-gradient(to bottom,rgb(75, 75, 75),rgba(105, 105, 105, 0.9));
+   height:325px;
+   width:220px;
+}
+.display{
+    background:rgb(255, 255, 255);
+    height:40px;
+    width:213px;
+    margin:auto;
+    align-content:center;
+    border-radius:5px;
+    border:1.5px black solid;
+    padding:2px;;
+}
+.display>input{
+    height:35px;
+    width:205px;
+    margin:0;
+    /* padding:10px 12px;; */
+}
+
+.button{width:50px;
+height:55px;
+border-radius:15px;
+cursor:pointer;
+font-weight: bold;
+font-size:large;
+}
+
+
+.nums{
+    background-image:linear-gradient(to right,rgb(0, 0, 0),rgb(43, 42, 42));
+    color:rgb(255, 255, 255);
+}
+
+.sym{
+    background-image:linear-gradient(to right,rgb(105, 105, 250),rgb(35, 11, 255));
+    color:rgb(255, 255, 255);
+   border-radius:20px;
+    
+}
+.syn{
+    background-image:linear-gradient(to right,rgb(0, 140, 255),rgb(0, 195, 255));
+    color:black;
+     border-radius:50px;}
+
